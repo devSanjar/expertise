@@ -1,0 +1,70 @@
+.side-bar-column {
+    background-color: #092A5B;
+}
+.horizontal-navbar {
+    background-color: #092a5b;
+    height: 80px;
+}
+.appeals {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.appeals-total {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.plus-button {
+    font-size: 15px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #E6E7E9 !important;
+    color: #080B22 !important;
+    font-weight: 600 !important;
+    height: 48px !important;
+}
+.hr-documents {
+    background-color: #E6E7E9;
+    height: 2px !important;
+}
+.table > :not(:first-child) {
+    border-top: 2px solid red;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-style: initial !important;
+}
+tr {
+    border-bottom: 1px solid #E6E7E9 !important;
+}
+thead {
+    font-size: 12.4px;
+    color: #6B6D7A;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #E8F4FF;
+    border-bottom: 1px solid #E6E7E9;
+}
+
+
+tr td {
+    border-style: none;
+    color: #080B22;
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    border-radius: 4px;
+}
+.td-second {
+    border-style: none;
+    color: #080B22;
+    font-size: 14px;
+    font-weight: 500;
+    height: 44px;
+}
