@@ -1,34 +1,17 @@
-.side-bar-column {
-    background-color: #092A5B;
+::-webkit-scrollbar {
+    width: 8px;
 }
-.horizontal-navbar {
-    background-color: #092a5b;
-    height: 80px;
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
 }
-.appeals {
-    color: #ffffff;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
 }
-.appeals-total {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #ffffff;
-    opacity: 0.5;
-}
-.plus-button {
-    font-size: 15px;
-}
-.accordion-button:not(.collapsed){
-    background-color: #E6E7E9 !important;
-    color: #080B22 !important;
-    font-weight: 600 !important;
-    height: 48px !important;
-}
+
 .hr-documents {
     background-color: #E6E7E9;
     height: 2px !important;
@@ -46,25 +29,13 @@ thead {
     font-size: 12.4px;
     color: #6B6D7A;
 }
+td {
+    font-size: 14px;
+    color: #080B22;
+    font-weight: 500;
+}
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: #E8F4FF;
     border-bottom: 1px solid #E6E7E9;
-}
-
-
-tr td {
-    border-style: none;
-    color: #080B22;
-    font-size: 14px;
-    font-weight: 400;
-    height: 44px;
-    border-radius: 4px;
-}
-.td-second {
-    border-style: none;
-    color: #080B22;
-    font-size: 14px;
-    font-weight: 500;
-    height: 44px;
 }
