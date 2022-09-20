@@ -1,70 +1,21 @@
-.side-bar-column {
-  background-color: #092A5B;
-}
-.horizontal-navbar {
-  background-color: #092a5b;
-  height: 80px;
-}
-.appeals {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-}
-.appeals-total {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
-  opacity: 0.5;
-}
-.plus-button {
-  font-size: 15px;
+input[type=file]::file-selector-button {
+  display: none;
 }
 
-
-.right-notice-text{
-  width: 90px;
-  height: 24px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.right-notice-all{
-  color: #1890FF;
-  font-size: 16px;
-  margin-top: 0.4%;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px;
 }
 
-.notice-date{
-  color: #9C9DA7;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 50px;
 }
-.notice-date-symb{
-  color: #9C9DA7;
-  font-style: normal;
-  font-weight: 100;
-  line-height: 20px;
 
-  margin-top: -0.5%;
-  font-size: 18px;
-}
-.notice-content{
-  color: #080B22;
-  line-height: 24px;
-  width: 100%;
-  font-size: 12.5px;
-  font-weight: 600;
-  height: 48px;
-  overflow: hidden;
-  display:inline-block;
-  text-overflow: ellipsis;
+.content {
+  height: 800px;
 }
