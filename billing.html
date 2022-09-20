@@ -258,7 +258,7 @@
                             </svg>
                         </div>
 
-                        <div class="btn btn-warning d-flex justify-content-center align-items-center ms-auto ms-5" style="font-size: 14px; width: 212px; height: 40px; background: #1890FF; border: none; color: #fff; font-weight: 700">
+                        <div type="button"  class="btn btn d-flex justify-content-center align-items-center ms-auto ms-5" data-bs-toggle="modal" data-bs-target="#openBillingModal" style="font-size: 14px; width: 212px; height: 40px; background: #1890FF; border: none; color: #fff; font-weight: 700">
                             <svg class="me-2" width="13" height="13" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.83464 1.0013C6.83464 0.541065 6.46154 0.167969 6.0013 0.167969C5.54106 0.167969 5.16797 0.541065 5.16797 1.0013V5.16797H1.0013C0.541064 5.16797 0.167969 5.54106 0.167969 6.0013C0.167969 6.46154 0.541064 6.83463 1.0013 6.83463H5.16797V11.0013C5.16797 11.4615 5.54106 11.8346 6.0013 11.8346C6.46154 11.8346 6.83464 11.4615 6.83464 11.0013V6.83464H11.0013C11.4615 6.83464 11.8346 6.46154 11.8346 6.0013C11.8346 5.54106 11.4615 5.16797 11.0013 5.16797H6.83464V1.0013Z" fill="white"/>
                             </svg>
@@ -339,7 +339,57 @@
                         </tbody>
                     </table>
                 </div>
+            </div>
+        </div>
+    </div>
 
+<!--    MODAL-->
+    <div class="modal fade" id="openBillingModal" tabindex="-1" aria-labelledby="openBillingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content d-flex" style="width: 840px;height: 520px; margin-left: -15%; margin-top: 15%">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-weight: 700; font-size: 16px; color: #080B22">Балансни тўлдириш учун оператор реквизитлари</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="opacity: 1 !important;"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped p-3 mt-3">
+                        <tbody>
+                        <tr>
+                            <td class="ps-4">Қабул қилувчи:</td>
+                            <td class="td-second">QURILISH SOHASIDA AXBOROT-TEXNOLOGIYALARINI RIVOJLANTIRISH MARKAZI</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">СТИР:</td>
+                            <td class="td-second">452678565</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">Ҳисоб рақам:</td>
+                            <td class="td-second">20220006701100659001</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">МФО:</td>
+                            <td class="td-second">00364</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">Банк:</td>
+                            <td class="td-second">Тошкент ш, "Капитал Банк" АТ банкининг амалиёт бошқармаси</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="card p-4" style="background: #FFF7EA;border-radius: 4px; border: none">
+                        <h6 style="color: #FFAA2A; font-weight: 700; font-size: 16px;">Эслатма!</h6>
+                        <div class="d-flex" style="color: #FFAA2A">
+                            <p class="me-2">1</p>
+                            <p>Иштирокчи операторнинг ҳисоб рақамига ўтказиладиган сумма кабинетда 6 соат ичида кўринади</p>
+                        </div>
+                        <div class="d-flex" style="color: #FFAA2A">
+                            <p class="me-2">2</p>
+                            <p>Агар қурилиш-пудрат ташкилотлари рейтингида мавжуд болган ёки бошқа ташкилот иштирокчига маблағўтказилса, унда баланс толдирилмайди, сабаби оператор</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
