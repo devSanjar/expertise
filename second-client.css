@@ -1,0 +1,26 @@
+input[type=file]::file-selector-button {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+
+.content {
+    height: 800px;
+}
+
+.td-second{
+    color: #000000;
+    font-weight: 600;
+}
