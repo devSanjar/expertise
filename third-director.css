@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+.td-second {
+    color: #000000;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #E6E7E9 !important;
+    color: #080B22 !important;
+    font-weight: 600 !important;
+    height: 48px !important;
+}
+.hr-documents {
+    background-color: #E6E7E9;
+    height: 2px !important;
+}
