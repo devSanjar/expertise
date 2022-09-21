@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+
+.hr-documents {
+    background-color: #E6E7E9;
+    height: 2px !important;
+}
+
+.table > :not(:first-child) {
+    border-top: 2px solid red;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-style: initial !important;
+}
+tr {
+    border-bottom: 1px solid #E6E7E9 !important;
+}
+thead {
+    font-size: 12.4px;
+    color: #6B6D7A;
+}
+td {
+    font-size: 14px;
+    color: #080B22;
+}
+.form-check-input{
+    cursor: pointer;
+}
+
+tbody td {
+    background: #fff !important;
+}
+
+
