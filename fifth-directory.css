@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+.td-second {
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #9C9DA7 !important;
+}
+
+thead th{
+    color: #6B6D7A !important;
+    font-weight: 600;
+    border-bottom: none !important;
+}
+
+tbody td{
+    background: #fff !important;
+    color: #000000 !important;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #E8F4FF !important;
+}
+.form-check-input {
+    cursor: pointer;
+}
+
+/* MAP */
+/*.map path:hover{*/
+/*    fill:#74BCFF;*/
+/*    stroke:black;*/
+/*    pointer-events:all;*/
+/*}*/
+
+path:hover, circle:hover {
+    stroke: #1E76E9 !important;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #74BCFF !important;
+    cursor: pointer;
+}
+
+#info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #fff;
+    border: 2px solid #E6E7E9;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+    font-weight: 600;
+}
