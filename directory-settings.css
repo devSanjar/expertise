@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+
+.form-label {
+   color: #080B22;
+   font-size: 16px;
+}
+.form-control{
+    border: 1px solid #E6E7E9 !important;
+    background: #fff !important;
+    height: 40px !important;
+}
+.form-select {
+    height: 40px !important;
+}
+select {
+    color:  black !important;
+    cursor: pointer !important;
+}
+
+option:not(:checked) {
+    color: black; /* or whatever your default style is */
+    cursor: pointer !important;
+}
+
+.dropdown-menu {
+    transform: translate(-202px, 70px) !important;
+    width: 440px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0px 3px 10px rgba(8, 11, 34, 0.2);
+
+}
+.hr-directory {
+    color: #c0c0c0;
+}
