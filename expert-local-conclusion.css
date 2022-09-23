@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 50px;
+}
+.hr-documents {
+    background-color: #dadada;
+    height: 2px !important;
+}
+
+.form-check-input, .form-check-label  {
+    cursor: pointer;
+}
+
+.form-check-label {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.form-label {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-control {
+    border: 1px solid #E6E7E9;
+    border-radius: 4px;
+    background: #fff;
+}
+.button-send:hover {
+    box-shadow: 0px 1px 1px rgba(1, 0, 0, 0.2);
+    border: 1px solid #1E76E9 !important;
+}
+input[type=file]::file-selector-button {
+    display: none;
+}
